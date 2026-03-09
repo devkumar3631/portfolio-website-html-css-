@@ -6,13 +6,13 @@ The goal of this project is to learn how to structure a website properly using H
 This project is part of the **Frontend Developer roadmap projects from roadmap.sh**.
 
 ## Home page 
-[![Preview](homePage.png)](https://your-live-link.com)
+[![Preview](images/homePage.png)](https://your-live-link.com)
 ## Project
-[![Preview](projects.png)](https://your-live-link.com)
+[![Preview](images/projects.png)](https://your-live-link.com)
 ## article
-[![Preview](articles.png)](https://your-live-link.com)
+[![Preview](images/articles.png)](https://your-live-link.com)
 ## contact
-[![Preview](contacts.png)](https://your-live-link.com)
+[![Preview](images/contacts.png)](https://your-live-link.com)
 
 Project Link:  
 https://roadmap.sh/projects/basic-html-website
