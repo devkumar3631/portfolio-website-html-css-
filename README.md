@@ -7,16 +7,16 @@ This project showcases my frontend skills, projects, and contact information.
 This project is part of the **Frontend Developer roadmap projects from roadmap.sh**  https://roadmap.sh/projects/portfolio-website .
 
 ## Home page 
-[![Preview](images/home.png)](https://your-live-link.com)
+[![Preview](images/home.png)](https://devkumar3631.github.io/portfolio-website-html-css-/index.html)
 ## Project
-[![Preview](images/project.png)](https://your-live-link.com)
+[![Preview](images/project.png)](https://devkumar3631.github.io/portfolio-website-html-css-/projects.html)
 ## article
-[![Preview](images/article.png)](https://your-live-link.com)
+[![Preview](images/article.png)](https://devkumar3631.github.io/portfolio-website-html-css-/articles.html)
 ## contact
-[![Preview](images/contact.png)](https://your-live-link.com)
+[![Preview](images/contact.png)](https://devkumar3631.github.io/portfolio-website-html-css-/contacts.html)
 
 Project Link:  
-https://roadmap.sh/projects/basic-html-website
+https://devkumar3631.github.io/portfolio-website-html-css-/
 ---
 
 ##  Pages Included
