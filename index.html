@@ -19,18 +19,20 @@
     <meta property="og:type" content="website">
 
     <link rel="icon" type="image/png" sizes="16*16" href="images/icons8-portfolio-16.png">
+    <link rel="stylesheet" href="styles.css">
  </head>
  <body>
     <header>
         <div class="logo">
-            <img src="images/images.jpg" alt="profile photo">
+            <img class="personal-image" src="images/images.jpg" alt="profile photo">
+            <h2>Dev kumar</h2>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html" aria-current="page">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="articles.html">Article</a></li>
-                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="index.html" class="active">Home /</a></li>
+                <li><a href="projects.html">Projects /</a></li>
+                <li><a href="articles.html">Article /</a></li>
+                <li><a href="contacts.html">Contact /</a></li>
             </ul>
         </nav>
     </header>
@@ -40,71 +42,75 @@
             <h1>Frontend Developer</h1>
             <p>HTML CSS javascript React NextJs</p>
         </section>
-
-        <section class="projects">
-          <h2>Projects</h2>
-          <ul>
-            <li>HTML only portfolio</li>
-            <li>Calculator</li>
-            <li>quiz App</li>
-            <li>Countdown timer</li>
-            <li>Product upcoming page</li>
-          </ul>  
-        </section>
-        
-        <section class="work-experience"> 
-            <h2>Work Experience</h2>
-            <article>
-                <h3>roadmap.sh</h3>
-                <p>Solved all the frontend projects</p>
-                <a href="">visit my profile</a>
-            </article>
        
-            <article>
-                <h3>OpenSource Work</h3>
-                <p>Contributed to 50 opensource projects . made my own Projects with 200 guithub stars</p>
-                <a href="">visit my guithub profile</a>
-            </article>
-        </section>
-       
-        <section class="education">
-            <h2>Education</h2>
-            <p>
-                Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.
-            </p>
+        <section class="main-layout">
+            <section class="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="#">HTML only portfolio</a></li>
+                    <li><a href="#">Calculator</a></li>
+                    <li><a href="#">quiz App</a></li>
+                    <li><a href="#">Countdown timer</a></li>
+                    <li><a href="#">Product upcoming page</a></li>
+                </ul>  
+            </section>
             
-            <h3>Courses i took:</h3>
-            <ul>
-                <li>Object Oriented Programming</li>
-                <li>data Structures and Algorithms</li>
-                <li>Web Engineering</li>
-                <li> Artificial Intelligence</li>
-                <li>Human Computer Interaction</li>
-                <li> Computer Graphics</li>
-                <li> Database Management Systems</li>
-                <li> Distributed Database Systems</li>
-                <li> Discreet Mathematics</li>
-            </ul>
+            <section class="work-experience"> 
+                <h2>Work Experience</h2>
+                <article>
+                    <h3>roadmap.sh</h3>
+                    <p>Solved all the frontend projects</p>
+                    <a href="">visit my profile</a>
+                </article>
+        
+                <article>
+                    <h3>OpenSource Work</h3>
+                    <p>Contributed to 50 opensource projects . made my own Projects with 200 guithub stars</p>
+                    <a href="">visit my guithub profile</a>
+                </article>
+            </section>
+        
+            <section class="education">
+                <h2>Education</h2>
+                <p>
+                    Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.
+                </p>
+                
+                <h3>Courses i took:</h3>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                    <li> Artificial Intelligence</li>
+                    <li>Human Computer Interaction</li>
+                    <li> Computer Graphics</li>
+                    <li> Database Management Systems</li>
+                    <li> Distributed Database Systems</li>
+                    <li> Discreet Mathematics</li>
+                </ul>
+            </section>
         </section>
         
         <section class="reviews">
             <h2>Feedback from Peers</h2>
-            <blockquote>
-                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
-                <footer>Jane Doe, Assistant Professor</footer>
-            </blockquote>
-            <blockquote>
-                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
-                <footer>Jane Doe, Assistant Professor</footer>
-            </blockquote>
-            <blockquote>
-                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
-                <footer>Jane Doe, Assistant Professor</footer>
-            </blockquote>
+            <section class="review-content">
+                <blockquote>
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <footer>Jane Doe, Assistant Professor</footer>
+                </blockquote>
+                <blockquote>
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <footer>Jane Doe, Assistant Professor</footer>
+                </blockquote>
+                <blockquote>
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <footer>Jane Doe, Assistant Professor</footer>
+                </blockquote>
+            </section>
         </section>
     </main>
     
-    <footer>
+    <footer class="footer">
         <p>&copy; 2026 Dev Kumar. All rights reserved.</p>
     </footer>
  </body>

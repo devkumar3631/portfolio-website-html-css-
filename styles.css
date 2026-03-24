@@ -1,0 +1,532 @@
+*{
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    letter-spacing: 0.5px;
+}
+
+a {
+    transition: 0.2s ease;
+}
+
+a:hover {
+    color: #0077ff !important;
+}
+
+/* header section */
+.personal-image{
+    width:60px;
+    height:60px;
+    border-radius: 15%;
+    object-fit: cover;
+}
+
+.logo{
+    display:flex; 
+    gap:10px;
+    align-items: center;
+}
+
+.logo h2{
+    margin:0;
+    white-space: nowrap;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:12px 24px;
+}
+
+header nav ul{
+    display:flex;
+    list-style-type: none;
+    gap: 16px;
+    margin:0;
+    padding:0;
+}
+
+nav li a{
+    text-decoration:none;
+    padding:0;
+    color:black;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+nav  li a.active{
+    font-weight: bold;
+}
+
+
+                 /* MAIN SECTION */
+
+/* intro section */
+
+.intro h1{
+  font-size:2rem;
+  font-weight: 600;
+}
+
+.intro p{
+    margin:0;
+    font-size: 0.9rem;
+    color:#555;
+    padding: 0;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 20vh; */
+    text-align: center;
+    max-width: 600px;
+    margin:20px auto;
+}
+
+
+/* main layout (project work experience education)  */
+.main-layout{
+    display:flex;
+    border:1px solid black;
+    margin: 40px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.main-layout section:hover {
+    background: #f9f9f9;
+}
+
+.projects,
+.work-experience{
+    border-right:1px solid black;
+}
+
+.projects,
+.work-experience,
+.education{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    /* width:100%; */
+}
+
+.main-layout > section {
+    flex: 1;
+}
+
+/* PROJECT SECTION */
+.projects h2,
+.work-experience h2,
+.education h2{
+    margin:0;
+    padding:12px 24px;
+}
+
+.projects ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+}   
+
+
+.projects ul li:not(:last-child){
+    border-bottom:1px solid black;
+}
+
+.projects ul li{
+    padding:12px 24px;
+    width:100%;
+    display: flex;
+    justify-content: center; 
+    white-space: nowrap;
+}
+
+.projects ul li a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    max-width: 175px;
+    width: 100%;
+}
+
+/*  WORK EXPERIENCE */
+.work-experience article{
+    display: flex;
+    flex-direction: column;
+    padding:12px 24px;
+    gap: 6px;
+}
+
+.work-experience article a{
+    text-decoration: none;
+    color:blue;
+}
+
+.work-experience article h3{
+    margin:0;
+    padding: 0;
+}
+
+.work-experience article:not(:last-child){
+    border-bottom:1px solid black;
+}
+
+/* EDUCATION SECTION */
+.education ul{
+    list-style-type: none;
+    margin:0;
+    padding:12px 24px;
+}
+.education p,
+.education h3{
+    margin:0;
+    padding:12px 24px;
+}
+
+.education li{
+    position: relative;
+    padding-left:14px;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.education ul li::before{
+    content: "-";
+    position: absolute;
+    left: 0;
+}
+
+/* review */
+.reviews{
+    /* min-height: 50vh; */
+    margin: 40px 0;
+}
+
+.review-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:0;
+    padding: 0;
+    gap:20px;
+    width: 100%;
+    margin:0 auto;
+    padding: 12px 24px;
+}
+
+.reviews h2{
+    margin:0;
+    padding:24px;
+}
+
+
+.reviews blockquote{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 12px 24px;
+    gap:6px;
+    flex:1;
+    transition: 0.2s ease;
+    max-width: 250px;
+    /* text-align: left; */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+ blockquote:hover{
+    transform: translatey(-4px);
+}
+
+.reviews blockquote footer{
+    color:#555;
+    margin:0;
+    padding: 0;
+    text-align: left;
+}
+
+.reviews blockquote p{
+   margin: 0;
+   padding: 0;
+}
+
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+                /* PROJECT PAGE */
+.projects-card,
+.articles{
+    max-width: 850px;
+    margin:40px auto;
+}
+
+.projects-card h1,
+.articles h1,
+.contact h1{
+    margin:40px auto;
+    padding:16px 24px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.projects-card ul,
+.articles ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    border:1px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.projects-card ul li h2,
+.articles ul li h2{
+   font-size: 1.2rem;
+   margin:0;
+   color:black;
+}
+
+.projects-card p,
+.articles p{
+    font-size: 0.95rem;
+    color:#555;
+    margin: 0;
+}
+
+.projects-card ul li:not(:last-child),
+.articles ul li:not(:last-child){
+    border-bottom: 1px solid black;
+}
+
+.projects-card ul li,
+.articles ul li{
+    transition: 0.2s ease;
+    padding:16px 24px;
+}
+
+.projects-card ul li:hover,
+.articles ul li:hover{
+    background: #f9f9f9;
+}
+
+
+
+            /* ARTICLE PAGE */
+
+.articles a,
+.projects-card a{
+    text-decoration: none;
+    padding: 16px 24px;
+}
+
+.projects l1 a{
+    cursor: pointer;
+}
+
+                  /*CONTACT FORM */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    margin-bottom: 60px;
+}
+
+.form{
+    width:100%;
+    max-width: 420px;
+    background: #ffffff;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.form span{
+    display:flex;
+    flex-direction: column;
+    align-items:stretch;
+    /* padding:12px 24px; */
+    gap:6px;
+}
+
+.form label{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form input,
+.form textarea{
+    width:100%;
+    padding:10px 12px;
+    border-radius: 8px;
+    border:1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.form input:focus,
+.form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.2);
+}
+
+.form #submit{
+  background:#007bff;
+   color: white;
+   border:none;
+   border-radius: 8px;
+   padding:12px;
+   cursor:pointer;
+   font-weight: 600;
+   transition: 0.2s ease;
+}
+
+.form #submit:hover {
+    background: #0056b3;
+}
+
+/* .contact h1{
+    text-align: center;
+    margin-bottom: 16px;
+} */
+
+.form input::placeholder,
+.form textarea::placeholder {
+    color: #999;
+}
+
+/* responsiveness */
+@media screen and (max-width:600px){
+    header{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px; 
+    }
+
+    /* .main-layout,
+    .review-content{
+        flex-direction: column;
+    } */
+    /* .projects,
+    .work-experience{
+      border-bottom:1px solid black;
+    } */
+
+    .projects ul{
+       background-color: #bebebe;
+    }
+    
+    /* .projects ul li{
+        text-align: center;
+    } */
+
+    .projects h2,
+    .work-experience h2{
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+
+    .work-experience article{
+       background-color: #bebebe;
+       padding: 10px 16px;
+    }
+
+    .review-content{
+        flex-direction: column;
+        align-items: center;
+        gap:25px;
+    }
+
+    .review-content blockquote{
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-layout {
+        flex-direction: column;
+    }
+
+    .projects,
+    .work-experience{
+      border-bottom:1px solid black;
+    }
+
+    .projects h2,
+    .work-experience h2{
+        border-bottom: 1px solid black;
+    }
+
+    .projects ul li{
+        text-align: center;
+    }
+
+    .projects-card,
+    .articles,
+    .contact{
+        margin: 20px 14px;
+    }
+
+    .projects-card ul li,
+    .articles ul li{
+        padding: 12px 16px;
+    }
+
+    .projects-card h1,
+    .articles h1,
+    .contact h1{
+        font-size: 1.6rem;
+    }
+}
